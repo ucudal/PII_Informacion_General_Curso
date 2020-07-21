@@ -471,45 +471,55 @@ El porcentaje de ponderación de los diferentes componentes es la siguiente:
         <th>Componente</th>
         <th>Porcentaje</th>
     </tr>
-    <tr style="vertical-align: top;text-align: left;">
+    <tr span="2" style="vertical-align: top;text-align: left;">
         <td>Resultado del aprendizaje</td>
+        <td></td>
         <td style="vertical-align: top;text-align: right;">70%</td>
     </tr>
     <tr style="vertical-align: top;text-align: right;">
         <td>1 entrega parcial</td>
             <td style="vertical-align: top;text-align: left;">15%</td>
+            <td></td>
     </tr>
     <tr style="vertical-align: top;text-align: right;">
         <td>2 entrega parcial</td>
             <td style="vertical-align: top;text-align: left;">15%</td>
+            <td></td>
     </tr>
     <tr style="vertical-align: top;text-align: right;">
         <td>Entrega final</td>
             <td style="vertical-align: top;text-align: left;">50%</td>
+            <td></td>
     </tr>
     <tr style="vertical-align: top;text-align: right;">
         <td>Defensa</td>
             <td style="vertical-align: top;text-align: left;">20%</td>
+            <td></td>
     </tr>
     <tr style="vertical-align: top;text-align: left;">
         <td>Proceso del aprendizaje</td>
+        <td></td>
         <td style="vertical-align: top;text-align: right;">30%</td>
     </tr>
     <tr style="vertical-align: top;text-align: right;">
         <td>IRAT</td>
             <td style="vertical-align: top;text-align: left;">35%</td>
+            <td></td>
     </tr>
     <tr style="vertical-align: top;text-align: right;">
         <td>TRAT</td>
             <td style="vertical-align: top;text-align: left;">25%</td>
+            <td></td>
     </tr>
     <tr style="vertical-align: top;text-align: right;">
         <td>Actividades de aplicación</td>
             <td style="vertical-align: top;text-align: left;">25%</td>
+            <td></td>
     </tr>
     <tr style="vertical-align: top;text-align: right;">
         <td>Evaluación entre pares</td>
             <td style="vertical-align: top;text-align: left;">15%</td>
+            <td></td>
     </tr>
 </table>
 
