@@ -151,7 +151,7 @@ El curso de desarrollará en varias unidades temátic1as que cubren diferentes a
 
 Para ello cada unidad temática describe las intenciones y los resultados esperados del aprendizaje específicos de la unidad.
 
-<h4 id="objects">1.4.1 Objetos, clases y mensajes</h4>
+<h4 id="objects">1.4.1 <a href="#content">Objetos, clases y mensajes</a></h4>
 Repasamos la esencia de un programa orientado a objetos. Introducimos la especificación de clases, responsabilidades y colaboraciones. Explicamos y usamos el patrón de diseño Expert y el principio Single Responsibility Principle para comenzar a descomponer en clases.
 
 <h4 id="types">1.4.2 <a href="#content">Tipos y tipos genéricos</a></h4>
