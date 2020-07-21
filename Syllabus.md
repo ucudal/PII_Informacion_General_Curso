@@ -469,9 +469,9 @@ El porcentaje de ponderación de los diferentes componentes es la siguiente:
 <table>
     <tr style="vertical-align: top;text-align: center;">
         <th>Componente</th>
-        <th>Porcentaje</th>
+        <th span="2">Porcentaje</th>
     </tr>
-    <tr span="2" style="vertical-align: top;text-align: left;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>Resultado del aprendizaje</td>
         <td></td>
         <td style="vertical-align: top;text-align: right;">70%</td>
