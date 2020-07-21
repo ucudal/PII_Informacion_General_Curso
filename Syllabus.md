@@ -193,7 +193,10 @@ Para ello cada unidad temática describe las intenciones y los resultados espera
 </p>
 
 <h4 id="objects">1.4.1 <a href="#content">Objetos, clases y mensajes</a></h4>
+<<<<<<< HEAD
 <p style="text-align: justify;">
+=======
+>>>>>>> 731c7195f831566961682e9d8dfe735bf7fba4db
 Repasamos la esencia de un programa orientado a objetos. Introducimos la especificación de clases, responsabilidades y colaboraciones. Explicamos y usamos el patrón de diseño Expert y el principio Single Responsibility Principle para comenzar a descomponer en clases.
 </p>
 
@@ -237,7 +240,7 @@ A su vez, Programación II es previa de Algoritmos y estructuras de datos I y de
 <img src="./Assets/previas.png" alt="drawing" style="width:480px"/>
 
 
-<h2 id="teach">2 Enseñanza y aprendizaje</h2>
+<h2 id="teach">2 <a href="#content">Enseñanza y aprendizaje</a></h2>
 <h3 id="teach_how"> 2.1 <a href="#content">Cómo enseñamos</a></h3>
 <p style="text-align: justify;">
 Entendemos que aprendes a programar programando. Es decir, podemos explicarte toda la teoría para hacer un programa, pero hasta que no te enfrentas a un editor de código y un compilador u otras herramientas necesarias para hacer programas, no vas a terminar de incorporar los conceptos y habilidades que se necesitan para programar.
