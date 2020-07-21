@@ -12,96 +12,96 @@
 
 <ul style="list-style:none">
     <li>
-        1. <a href="">Acerca del curso</a>
+        1. <a href="#about">Acerca del curso</a>
         <ul style="list-style:none">
             <li>
-                1.1. <a>Sobre programación y programación orientada a objetos</a>                
+                1.1. <a href="#about_poo">Sobre programación y programación orientada a objetos</a>                
             </li>
             <li>
-                1.2. <a>Intenciones del curso</a>                
+                1.2. <a href="#course_intention">Intenciones del curso</a>                
             </li>
             <li>
-                1.3. <a>Competencias</a>                
+                1.3. <a href="#competences">Competencias</a>                
             </li>
             <li>
-                1.4. <a>Unidades temáticas</a>   
+                1.4. <a href="#units">Unidades temáticas</a>   
                 <ul style="list-style:none">
                     <li>
-                        1.4.1. <a>Objetos, clases y mensajes</a>                
+                        1.4.1. <a href="#objects">Objetos, clases y mensajes</a>                
                     </li>
                     <li>
-                        1.4.2. <a>Tipos y tipos genéricos</a>                
+                        1.4.2. <a href="#types">Tipos y tipos genéricos</a>                
                     </li>
                     <li>
-                        1.4.3. <a>Herencia</a>                
+                        1.4.3. <a href="#herarchy">Herencia</a>                
                     </li>
                     <li>
-                        1.4.4. <a>Composición y delegación</a>                
+                        1.4.4. <a href="#composition">Composición y delegación</a>                
                     </li>
                     <li>
-                        1.4.5. <a>Excepciones</a>                
+                        1.4.5. <a href="#exceptions">Excepciones</a>                
                     </li>
                 </ul>             
             </li>
              <li>
-                1.5. <a>Previas</a>                
+                1.5. <a href="#course_requisites">Previas</a>                
             </li>
         </ul>
     </li>
     <li>
-        2. <a>Enseñanza y aprendizaje</a>
+        2. <a href="#teach">Enseñanza y aprendizaje</a>
         <ul style="list-style:none">
             <li>
-                2.1. <a>Cómo enseñamos</a>                
+                2.1. <a href="#teach_how">Cómo enseñamos</a>                
             </li>
             <li>
-                2.2. <a>Eres dueño de tu aprendizaje</a>                
+                2.2. <a href="#owner">Eres dueño de tu aprendizaje</a>                
             </li>
             <li>
-                2.3. <a>Aplicación al proyecto</a>                
+                2.3. <a href="#proyect">Aplicación al proyecto</a>                
             </li>
             <li>
-                2.4. <a>Webasignatura</a>               
+                2.4. <a href="#webasignatura">Webasignatura</a>               
             </li>
         </ul>
     </li>
      <li>
-        3. <a>Aprobación del curso</a>
+        3. <a href="#course_pass">Aprobación del curso</a>
         <ul style="list-style:none">
             <li>
-                3.1. <a>Asistencia</a>                
+                3.1. <a href="#assistance">Asistencia</a>                
             </li>
             <li>
-                3.2. <a>Evaluaciónes</a>                
+                3.2. <a href="#eval">Evaluaciónes</a>                
             </li>
             <li>
-                3.3. <a>Calificaciones</a>                
+                3.3. <a href="#qualification">Calificaciones</a>                
                 <ul style="list-style:none">
                     <li>
-                        3.3.1. <a>Escala de calificaciones</a>                
+                        3.3.1. <a href="#scale_qualification">Escala de calificaciones</a>                
                     </li>
                     <li>
-                        3.3.2. <a>Calificaciones del curso</a>                
+                        3.3.2. <a href="#course_qualification">Calificaciones del curso</a>                
                     </li>
                     <li>
-                        3.3.3. <a>Aprobación final</a>                
+                        3.3.3. <a href="#final_approval">Aprobación final</a>                
                     </li>
                 </ul>
             </li>
         </ul>
     </li>
     <li>
-        4. <a>Honestidad Academémica</a>
+        4. <a href="#honesty">Honestidad Academémica</a>
     </li>
     <li>
-        5. <a>Detalles de las competencias</a>
+        5. <a href="#competence_details">Detalles de las competencias</a>
     </li>
     <li>
-        6. <a>Indicadores de logro</a>
+        6. <a  href="#achievement_indicator">Indicadores de logro</a>
     </li>
 </ul>
 
-## 1 Acerca del curso
+<h2 id="about">1 Acerca del curso</h2>
 Los profesores de Programación II te damos la bienvenida al curso.
 
 - Federico Martino  federicod.martino@ucu.edu.uy
@@ -109,14 +109,14 @@ Los profesores de Programación II te damos la bienvenida al curso.
 - Mauricio Cassani  raul.cassani@ucu.edu.uy
 - Nicolás Alliaume  nicolas.alliaume@ucu.edu.uy
 - Eduardo Pérez     eduardo.perez@correo.ucu.edu.uy
-- Gonzalo Pennino
-- Bernardo Rythchemberg
+- Gonzalo Pennino   gpennino@ucu.edu.uy
+- Bernardo Rychtenberg brychtenberg@ucu.edu.uy 
 
-### 1.1 Sobre programación y programación orientada a objetos
+<h3 id="about_poo">1.1 Sobre programación y programación orientada a objetos</h3>
 
 <strong>Programar</strong> es diseñar y construir una secuencia de instrucciones (la lógica del programa) para que un computador pueda transformar un conjunto de datos de entrada en otro conjunto de salida -el estado del programa- para resolver un problema. En la <strong>programación lógica</strong> las instrucciones tienen la forma de cláusulas o reglas lógicas y el estado tiene la forma de hechos o afirmaciones; las reglas transforman los hechos en nuevos hechos, que son usados en nuevas reglas, y así sucesivamente. En la <strong>programación funcional</strong> la lógica toma la forma de funciones que transforman los parámetros en resultados; los resultados pueden ser usados como parámetros de otras funciones, y así sucesivamente; no hay estado global, el estado es el conjunto de los parámetros y resultados. En la programación procedural las instrucciones se agrupan en procedimientos que pueden ser invocados por otros procedimientos para manipular un estado global en forma de variables. En la programación orientada a objetos el estado y la lógica se distribuyen de forma razonablemente equilibrada entre un conjunto de objetos que colaboran para lograr que programa haga lo que se espera.
 
-### 1.2 Intenciones del curso
+<h3 id="course_intention">1.2 Intenciones del curso</h3>
 La intención primaria de este curso es desarrollar la capacidad de producir software de tal forma que los datos y la lógica se distribuyan en forma razonablemente equilibrada entre un conjunto de objetos que colaboran para lograr que el software haga lo que debe. Cuando tengas esa capacidad podrás identificar clases, asignarles responsabilidades, y hacer que colaboren, para así construir aplicaciones de software.
 
 En este curso utilizaremos un lenguaje de programación orientado a objetos y herramientas muy difundidas en la comunidad de desarrollo de software, procurando alcanzar niveles de destrezas satisfactorios en su uso de acuerdo con las expectativas de la industria, así como buenas prácticas de programación de aplicaciones de software de acuerdo con los estándares de la disciplina. 
@@ -126,7 +126,7 @@ Es también una intención de este curso el contribuir a desarrollar valores y h
 <img src="./Assets/intenciones-curso.png" alt="drawing" style="width:480px"/>
 
 
-### 1.3 Competencias
+<h3 id="competences">1.3 Competencias</h3>
 Este curso busca desarrollar las siguientes competencias específicas; el detalle aparece en el <strong>Detalle de las competencias</strong> en la página 12:
         
 - Diseñar programas que resuelvan problemas en términos de objetos y clases, responsabilidades y colaboraciones
@@ -144,31 +144,31 @@ También vamos a desarrollar las siguientes competencias generales:
 
 Queremos que comprendas estos resultados esperados del aprendizaje, trabajes para alcanzarlos y reflexiones sobre el proceso a fin de mejorar continuamente: serás el protagonista activo de tu propio aprendizaje. Para aprender a sistematizar esta reflexión y desarrollar las capacidades de pensamiento crítico, resolución de problemas y de aprendizaje autodirigido, te pedimos que desarrolles y mantengas un portafolio con las reflexiones y experiencias de aprendizaje, que también entregarás al final del curso y sobre el cual podrás consultarnos continuamente.
 
-### 1.4 Unidades temáticas
+<h3 id="units">1.4 Unidades temáticas</h3>
 El curso de desarrollará en varias unidades temátic1as que cubren diferentes aspectos de las competencias desarrollar y actuando coordinadamente apunta al logro de los objetivos y resultados de aprendizaje.
 
 
 Para ello cada unidad temática describe las intenciones y los resultados esperados del aprendizaje específicos de la unidad.
 
-#### 1.4.1 Objetos, clases y mensajes
+<h4 id="objects">1.4.1 Objetos, clases y mensajes</h4>
 Repasamos la esencia de un programa orientado a objetos. Introducimos la especificación de clases, responsabilidades y colaboraciones. Explicamos y usamos el patrón de diseño Expert y el principio Single Responsibility Principle para comenzar a descomponer en clases.
 
-#### 1.4.2 Tipos y tipos genéricos
+<h4 id="types">1.4.2 Tipos y tipos genéricos</h4>
 Vemos qué es un tipo, cómo crear tipos, cómo un objeto puede tener varios tipos, y cómo varios objetos pueden tener el mismo tipo; también vemos la relación entre tipos y clases. Explicamos y usamos el patrón de diseño Polymorphism y el Liskov Substitution Principle para comenzar a diseñar en base a principios.
 
 Entendemos cómo generar tipos en función de otros para clasificar abstracciones en forma horizontal
 
-#### 1.4.3 Herencia
+<h4 id="herarchy">1.4.3 Herencia</h4>
 Entendemos cómo usar la herencia para clasificar abstracciones usando relaciones de generalización y especialización.
 Explicamos y usamos el patrón de diseño Creator y el principio Open/Closed para continuar descomponiendo en clases y diseñando en base a principios.
 
-#### 1.4.4 Composición y delegación
+<h4 id="composition">1.4.4 Composición y delegación</h4>
 Vemos cómo un objeto puede usar otros en los que delega sus responsabilidades. Introducimos cohesión y acoplamiento y presentamos porqué es necesario maximizar lo primero y minimizar lo segundo. Explicamos y usamos los patrones de diseño Low Coupling, High Cohesion, y Don’t Talk to Strangers y los principios Dependency Inversion e Interface Segregation para continuar descomponiendo en clases y diseñando en base a principios.
 
-#### 1.4.5 Programar contra especificaciones
+<h4 id="exceptions"> 1.4.5 Programar contra especificaciones</h4>
 Vemos cómo definir cuándo un programa es correcto, cómo corregirlo cuando y no es correcto y cómo controlar el flujo de ejecución cuando los programas encuentran situaciones que no están preparados para resolver.
 
-### 1.5 Previas
+<h3 id="course_requisites">1.5 Previas</h3>
 Programación II tiene como previa Programación I. Asumimos que ya puedes construir programas utilizando los conceptos de variables y operaciones, estructuras de control de flujo, funciones y parámetros, clases y objetos.
 
 > ⚠️ **Nota**
@@ -180,8 +180,8 @@ A su vez, Programación II es previa de Algoritmos y estructuras de datos I y de
 <img src="./Assets/previas.png" alt="drawing" style="width:480px"/>
 
 
-## 2 Enseñanza y aprendizaje
-### 2.1 Cómo enseñamos
+<h2 id="teach">2 Enseñanza y aprendizaje</h2>
+<h3 id="teach_how"> 2.1 Cómo enseñamos</h3>
 Entendemos que aprendes a programar programando. Es decir, podemos explicarte toda la teoría para hacer un programa, pero hasta que no te enfrentas a un editor de código y un compilador u otras herramientas necesarias para hacer programas, no vas a terminar de incorporar los conceptos y habilidades que se necesitan para programar.
 
 >⚠️ Nota
@@ -218,10 +218,6 @@ Las tarjetas simulan las que se usaban antiguamente -o no tanto- en las bibliote
 > Vamos a tener en cuenta en las evaluaciones que llamen a las cosas por su nombre, tal como están definidos en las tarjetas; sólo de esa forma los profesores podemos saber a qué conceptos o términos hacen referencia en sus respuestas y entregas.
 
 En caso de que no puedas terminar de programar por tu cuenta en el tiempo disponible alguno de los ejemplos que programamos los profesores, el código está disponible en un repositorio llamado GitHub 4 . Accede al repositorio para ver al código de ejemplo una vez que hayas intentado programarlo por tu cuenta, si no has podido terminarlo; o si has podido, pero quieres comparar lo que has hecho con lo que hemos mostrado en clase. Ten en cuenta que en algunos casos hay más de una forma correcta de codificar.
-
-
-
-
 
 Después de esa introducción, vamos a realizar una o varias actividades de aplicación en clase. Esas actividades pueden ser:
 
@@ -321,7 +317,7 @@ Otra cosa importante es documentar tu programa, es decir, agregar información q
 
 También es importante usar un repositorio para programar tranquilo. Un repositorio evita que pierdas tu trabajo, ya sea porque pasa algo en tu ambiente, porque introduces un error inesperado que quisieras deshacer, o porque quieres colaborar con otros compañeros, ya sea permitiéndoles modificar lo que tú programas, o permitiéndoles ver lo que has programado y que te hagan comentarios.
 
-### 2.2 Eres dueño de tu aprendizaje
+<h3 id="owner"> 2.2 Eres dueño de tu aprendizaje</h3>
 Los profesores podemos enseñarte, pero sólo tú puedes aprender. En este curso queremos enseñarte a programar, pero también queremos que aprendas a aprender. Aunque nunca más programes 5 , aprender es algo que haces durante toda tu vida.
 
 > ⚐ Importante
@@ -342,7 +338,7 @@ Como el tiempo que necesitas para incorporar un concepto, o desarrollar una capa
 
 Esperamos que comprendas las competencias que deberás desarrollar -y los indicadores de logro asociados-, que trabajes para desarrollarlas, y que reflexiones sobre el proceso a fin de mejorar continuamente: serás el protagonista activo de tu propio aprendizaje. Para aprender a sistematizar esta reflexión y adueñarte de tu aprendizaje, te pediremos que desarrolles y mantengas un portafolio con las reflexiones y experiencias de aprendizaje, que también entregarás al final del curso y sobre el cual podrás consultar continuamente con los profesores.
 
-### 2.3 Aprendizaje basado en proyectos y en equipos
+<h3 id="proyect"> 2.3 Aprendizaje basado en proyectos y en equipos</h3>
 En este curso la mayor parte del trabajo que hagas será aplicado a un proyecto que realizarás en equipos. La integración de los equipos es definida por los profesores al comienzo del curso y no cambia durante el proyecto. Te vamos a dar las características del proyecto durante el curso. Ahora es importante saber que:
 
 - El proyecto está centrado en enseñarte los conocimientos y desarrollar las competencias que son objeto de este curso; no es un accesorio sino el núcleo del curso.
@@ -356,7 +352,7 @@ En este curso la mayor parte del trabajo que hagas será aplicado a un proyecto 
 
 El equipo es el vehículo con que cuentas para realizar un mejor trabajo en forma efectiva: aprender. De ahí la importancia que tu equipo sea lo más productivo posible, a efectos de que tú y cada uno de tus compañeros puedan lograr los mayores niveles de aprendizaje.
 
-### 2.4 Webasignatura
+<h3 id="webasignatura"> 2.4 Webasignatura</h3>
 La webasignatura de nuestro curso contiene todos los materiales necesarios, o tiene vínculos a otros materiales: https://webasignatura.ucu.edu.uy/course/view.php?id=288.
 
 El foro de anuncios generales de la web asignatura es el medio de comunicación básico de los profesores.
@@ -369,8 +365,8 @@ El foro de anuncios generales de la web asignatura es el medio de comunicación 
 >
 > Si tienes consultas por temas administrativos, de agenda, de gestión o personales, preséntalos personalmente a los profesores o a las autoridades correspondientes de la carrera.
 
-## 3 Aprobación del curso
-### 3.1 Asistencia
+<h2 id="course_pass"> 3 Aprobación del curso</h2>
+<h3 id="assistance">3.1 Asistencia</h3>
 La asistencia no es sólo venir a clase, sino estar presente en clase. Estar presente quiere decir tener la cabeza puesta en la clase, no en algo que pasó antes, ni en algo que va a pasar luego. Estar presente es participar escuchando activamente, preguntando cuando tienes dudas, evitando hacer cosas que no tienen que ver con la clase.
 
 Los profesores registramos la asistencia al comienzo de cada clase<sup>7</sup>, debes estar presente para que cuente como asistencia; y debes permanecer presente en clase, para que cuente como asistencia.
@@ -385,7 +381,7 @@ Cualquiera puede tener un inconveniente que los haga llegar tarde, o que evite q
 
 Sabemos que en este mundo hiperconectado en el que vivimos, es difícil estar presente; las redes sociales y las aplicaciones de mensajería instantánea nos lo recuerdan a cada rato. Evita estar pendiente de lo que pasa en tus dispositivos, que no tenga que ver con la clase, mientras estás en clase. Lo vamos a tener en cuenta en la evaluación, y puede llegar a que no te contemos presente en una clase, aunque hayas asistido. Si algo urgente ocurre, coméntaselo a los profesores y trata de resolverlo saliendo unos minutos de clase.
 
-### 3.2 Evaluaciones
+<h3 id="eval"> 3.2 Evaluaciones</h3>
 Todas las instancias de pruebas individuales serán realizadas exclusivamente en el recinto del salón de clase, y serán iniciadas puntualmente a la hora indicada.
 
 Podrás participar en la prueba individual aún si llegas tarde: tendrás disponible para realizarla el tiempo que reste para la hora de cierre establecida para esa prueba.
@@ -408,8 +404,8 @@ Junto con cada entrega parcial y la entrega final del proyecto haremos una evalu
 
 El criterio para la evaluación entre pares es mediante una rúbrica que se proporcional junto con el enunciado del proyecto y se aplica con cada entrega parcial y la entrega final. Esta rúbrica indica las evidencias observables del desarrollo de tu competencia de trabajo colaborativo, según la opinión del resto de los integrantes de tu equipo: tus compañeros contestan una docena de afirmaciones sobre tu desempeño, en cinco niveles que van de “discrepo totalmente” a “totalmente de acuerdo”. Deberás alcanzar el nivel “totalmente de acuerdo” o “de acuerdo” -los dos más altos- en al menos la mitad de las afirmaciones, para obtener calificación superior 75% en la evaluación entre pares.
 
-### 3.3 Calificaciones
-#### 3.3.1 Escala de calificaciones
+<h3 id="qualification">3.3 Calificaciones</h3>
+<h4 id="scale_qualification"> 3.3.1 Escala de calificaciones</h4>
 
 La escala de notas a usarse en cada instancia de calificación será la oficial usada en la Universidad Católica:
 
@@ -453,7 +449,7 @@ Para la correspondencia entre puntajes y notas, se utilizarán los siguientes ra
     </tr>
 </table>
 
-#### 3.3.2 Calificaciones del curso
+<h4 id="course_qualification">3.3.2 Calificaciones del curso</h4>
 La calificación del curso se compone de:
 - La medición del **resultado del aprendizaje**, integrado por:
     - Las tres entregas parciales del proyecto.
@@ -518,7 +514,7 @@ El porcentaje de ponderación de los diferentes componentes es la siguiente:
 
 Puedes obtener 5 puntos adicional en la nota del proceso de aprendizaje si completas el curso<sup>9</sup> en línea “Aprendiendo a aprender: Poderosas herramientas mentales con las que podrás dominar temas difíciles” en Coursera:https://www.coursera.org/learn/aprendiendo-a-aprender dentro de las primeras cuatro semanas del curso.
 
-#### 3.3.3 Aprobación final
+<h4 id="final_approval">3.3.3 Aprobación final</h4>
 Para lograr la aprobación del curso, es necesario que se cumplan tres condiciones simultáneamente:
 
 - Que obtengas una calificación de BMB o superior en la medición del resultado del aprendizaje.
@@ -527,7 +523,7 @@ Para lograr la aprobación del curso, es necesario que se cumplan tres condicion
 
 La nota de aprobación del curso será el promedio ponderado de las calificaciones del resultado del aprendizaje y del proceso de aprendizaje.
 
-## 4. Honestidad académica
+<h2 id="honesty">4. Honestidad académica</h2>
 Para la realización de tu proyecto y de tus presentaciones, tanto en equipo como i ndividuales, debes tener especialmente en cuenta que se espera un producto desarrollado exclusivamente por ti y no algo copiado o desarrollado por otra persona.
 
 Si presentaras como propio un trabajo realizado por otra persona, o descargado textualmente de páginas de internet, además de no servirte en absoluto para alcanzar los resultados esperados del aprendizaje, estarías cometiendo una deshonestidad académica grave.
@@ -545,7 +541,7 @@ todos, elaborado por la Universidad Católica:
 >
 >Puedes consultar a los profesores en cualquier momento sobre dudas acerca de cómo citar, transcribir o parafrasear correctamente trabajos, textos o imágenes de terceros.
 
-## 5. Detalle de las competencias
+<h2 id="competence_details">5. Detalle de las competencias</h2>
 
 A continuación, aparece el detalle de las competencias enumeradas en la sección Competencias:
 - Descomponer problemas en términos de objetos y clases, responsabilidades y colabor aciones.
@@ -577,7 +573,7 @@ portarse el programa; y luego encontrar y corregir errores semánticos, es decir
 ciona como están definidos. La depuración puede ser artesanal, utilizando trazas y mensajes, aunque en la
 actualidad el depurador es parte del entorno integrado de desarrollo.
 
-## 6. Indicadores de logro
+<h2 id="achievement_indicator">6. Indicadores de logro</h2>
 Sabremos que has desarrollado las competencias mencionadas anteriormente si:
 
 - Diseñas programas aplicando los llamados patrones generales de asignación de responsabilidades; la aplicación del conjunto de estos patrones, simultáneamente con los principios mencionados a continuación, da como resultado programas orientados a objetos con las características deseadas, es decir, con una distribución razonable de responsabilidades.
