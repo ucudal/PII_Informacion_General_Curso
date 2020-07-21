@@ -115,67 +115,123 @@ Los profesores de Programación II te damos la bienvenida al curso.
 
 <h3 id="about_poo">1.1 <a href="#content">Sobre programación y programación orientada a objetos</a></h3>
 
+<p style="text-align: justify;">
 <strong>Programar</strong> es diseñar y construir una secuencia de instrucciones (la lógica del programa) para que un computador pueda transformar un conjunto de datos de entrada en otro conjunto de salida -el estado del programa- para resolver un problema. En la <strong>programación lógica</strong> las instrucciones tienen la forma de cláusulas o reglas lógicas y el estado tiene la forma de hechos o afirmaciones; las reglas transforman los hechos en nuevos hechos, que son usados en nuevas reglas, y así sucesivamente. En la <strong>programación funcional</strong> la lógica toma la forma de funciones que transforman los parámetros en resultados; los resultados pueden ser usados como parámetros de otras funciones, y así sucesivamente; no hay estado global, el estado es el conjunto de los parámetros y resultados. En la programación procedural las instrucciones se agrupan en procedimientos que pueden ser invocados por otros procedimientos para manipular un estado global en forma de variables. En la programación orientada a objetos el estado y la lógica se distribuyen de forma razonablemente equilibrada entre un conjunto de objetos que colaboran para lograr que programa haga lo que se espera.
+</p>
 
 <h3 id="course_intention">1.2 <a href="#content">Intenciones del curso</a></h3>
+<p style="text-align: justify;">
 La intención primaria de este curso es desarrollar la capacidad de producir software de tal forma que los datos y la lógica se distribuyan en forma razonablemente equilibrada entre un conjunto de objetos que colaboran para lograr que el software haga lo que debe. Cuando tengas esa capacidad podrás identificar clases, asignarles responsabilidades, y hacer que colaboren, para así construir aplicaciones de software.
+</p>
 
+<p style="text-align: justify;">
 En este curso utilizaremos un lenguaje de programación orientado a objetos y herramientas muy difundidas en la comunidad de desarrollo de software, procurando alcanzar niveles de destrezas satisfactorios en su uso de acuerdo con las expectativas de la industria, así como buenas prácticas de programación de aplicaciones de software de acuerdo con los estándares de la disciplina. 
+</p>
 
+<p style="text-align: justify;">
 Es también una intención de este curso el contribuir a desarrollar valores y habilidades para el trabajo colaborativo, la responsabilidad por el aprendizaje propio, la capacidad de resolución de problemas, el pensamiento crítico, la comunicación efectiva y el aprendizaje permanente.
+</p>
 
 <img src="./Assets/intenciones-curso.png" alt="drawing" style="width:480px"/>
 
 
 <h3 id="competences">1.3 <a href="#content">Competencias</a></h3>
+<p style="text-align: justify;">
 Este curso busca desarrollar las siguientes competencias específicas; el detalle aparece en el <strong>Detalle de las competencias</strong> en la página 12:
-        
-- Diseñar programas que resuelvan problemas en términos de objetos y clases, responsabilidades y colaboraciones
-- Expresar objetos, clases y las relaciones entre ellos en lenguaje natural, en alguna representación gráfica, y en un lenguaje de programación orientado a objetos; y traducir entre diferentes representaciones.
-- Utilizar patrones de diseño orientado a objetos para resolver problemas recurrentes.
-- Diseñar programas de forma que sean resilientes, fáciles de mantener y fáciles de entender, reutilizando y reutilizables.
-- Crear y modificar programas en forma colaborativa y concurrente.
-- Escribir programas contra especificaciones y depurarlos para encontrar y corregir errores.
+</p>
 
+<p style="text-align: justify;">
+    <ul>
+        <li>
+            Diseñar programas que resuelvan problemas en términos de objetos y clases, responsabilidades y colaboraciones
+        </li>
+        <li>
+            Expresar objetos, clases y las relaciones entre ellos en lenguaje natural, en alguna representación gráfica, y en un lenguaje de programación orientado a objetos; y traducir entre diferentes representaciones.
+        </li>
+        <li>
+            Utilizar patrones de diseño orientado a objetos para resolver problemas recurrentes.
+        </li>
+        <li>
+            Diseñar programas de forma que sean resilientes, fáciles de     mantener y fáciles de entender, reutilizando y reutilizables.
+        </li>
+        <li>
+            Crear y modificar programas en forma colaborativa y concurrente.
+        </li>
+        <li>
+            Escribir programas contra especificaciones y depurarlos para encontrar y corregir errores.
+        </li>
+    </ul>
+</p>
+
+<p style="text-align: justify;">
 Los indicadores de logro asociados a estas competencias aparecen en <strong>Indicadores de logro</strong> en la página 13.
 También vamos a desarrollar las siguientes competencias generales:
-- Comunicación efectiva
-- Pensamiento crítico
-- Trabajo colaborativo
+<ul>
+    <li>
+        Comunicación efectiva
+    </li>
+    <li>
+        Pensamiento crítico
+    </li>
+    <li>
+        Trabajo colaborativo
+    </li>
+</ul>
+</p>
 
+<p style="text-align: justify;">
 Queremos que comprendas estos resultados esperados del aprendizaje, trabajes para alcanzarlos y reflexiones sobre el proceso a fin de mejorar continuamente: serás el protagonista activo de tu propio aprendizaje. Para aprender a sistematizar esta reflexión y desarrollar las capacidades de pensamiento crítico, resolución de problemas y de aprendizaje autodirigido, te pedimos que desarrolles y mantengas un portafolio con las reflexiones y experiencias de aprendizaje, que también entregarás al final del curso y sobre el cual podrás consultarnos continuamente.
+</p>
 
 <h3 id="units">1.4 <a href="#content">Unidades temáticas</a></h3>
+<p style="text-align: justify;">
 El curso de desarrollará en varias unidades temátic1as que cubren diferentes aspectos de las competencias desarrollar y actuando coordinadamente apunta al logro de los objetivos y resultados de aprendizaje.
+</p>
 
-
+<p style="text-align: justify;">
 Para ello cada unidad temática describe las intenciones y los resultados esperados del aprendizaje específicos de la unidad.
+</p>
 
-<h4 id="objects">1.4.1 Objetos, clases y mensajes</h4>
+<h4 id="objects">1.4.1 <a href="#content">Objetos, clases y mensajes</a></h4>
+<p style="text-align: justify;">
 Repasamos la esencia de un programa orientado a objetos. Introducimos la especificación de clases, responsabilidades y colaboraciones. Explicamos y usamos el patrón de diseño Expert y el principio Single Responsibility Principle para comenzar a descomponer en clases.
+</p>
 
 <h4 id="types">1.4.2 <a href="#content">Tipos y tipos genéricos</a></h4>
+<p style="text-align: justify;">
 Vemos qué es un tipo, cómo crear tipos, cómo un objeto puede tener varios tipos, y cómo varios objetos pueden tener el mismo tipo; también vemos la relación entre tipos y clases. Explicamos y usamos el patrón de diseño Polymorphism y el Liskov Substitution Principle para comenzar a diseñar en base a principios.
+</p>
 
+<p style="text-align: justify;">
 Entendemos cómo generar tipos en función de otros para clasificar abstracciones en forma horizontal
+</p>
 
 <h4 id="herarchy">1.4.3 <a href="#content">Herencia</a></h4>
+<p style="text-align: justify;">
 Entendemos cómo usar la herencia para clasificar abstracciones usando relaciones de generalización y especialización.
 Explicamos y usamos el patrón de diseño Creator y el principio Open/Closed para continuar descomponiendo en clases y diseñando en base a principios.
+</p>
 
 <h4 id="composition">1.4.4 <a href="#content">Composición y delegación</a></h4>
+<p style="text-align: justify;">
 Vemos cómo un objeto puede usar otros en los que delega sus responsabilidades. Introducimos cohesión y acoplamiento y presentamos porqué es necesario maximizar lo primero y minimizar lo segundo. Explicamos y usamos los patrones de diseño Low Coupling, High Cohesion, y Don’t Talk to Strangers y los principios Dependency Inversion e Interface Segregation para continuar descomponiendo en clases y diseñando en base a principios.
+</p>
 
 <h4 id="exceptions"> 1.4.5 <a href="#content">Programar contra especificaciones</a></h4>
+<p style="text-align: justify;">
 Vemos cómo definir cuándo un programa es correcto, cómo corregirlo cuando y no es correcto y cómo controlar el flujo de ejecución cuando los programas encuentran situaciones que no están preparados para resolver.
+</p>
 
 <h3 id="course_requisites">1.5 <a href="#content">Previas</a></h3>
+<p style="text-align: justify;">
 Programación II tiene como previa Programación I. Asumimos que ya puedes construir programas utilizando los conceptos de variables y operaciones, estructuras de control de flujo, funciones y parámetros, clases y objetos.
+</p>
 
 > ⚠️ **Nota**
->
+><p style="text-align: justify;">
 > En Programación I usaste Python, mientras que en Programación II usaremos C#. En webasignatura podrás encontrar
 > ayuda para hacer en C# las cosas que sabes hacer en Python.
+</p>
 
 A su vez, Programación II es previa de Algoritmos y estructuras de datos I y de Ingeniería de software I.
 <img src="./Assets/previas.png" alt="drawing" style="width:480px"/>
@@ -183,17 +239,26 @@ A su vez, Programación II es previa de Algoritmos y estructuras de datos I y de
 
 <h2 id="teach">2 Enseñanza y aprendizaje</h2>
 <h3 id="teach_how"> 2.1 <a href="#content">Cómo enseñamos</a></h3>
+<p style="text-align: justify;">
 Entendemos que aprendes a programar programando. Es decir, podemos explicarte toda la teoría para hacer un programa, pero hasta que no te enfrentas a un editor de código y un compilador u otras herramientas necesarias para hacer programas, no vas a terminar de incorporar los conceptos y habilidades que se necesitan para programar.
+</p>
 
 >⚠️ Nota
->
+><p style="text-align: justify;">
 >Y eso es sólo el comienzo. Programar no es sólo escribir el código, compilarlo, y lograr que el progra ma haga lo que se supone. Mira por ejemplo este link para tener una idea.
+</p>
 
+<p style="text-align: justify;">
 Por eso, en este curso no hay clases teóricas y prácticas separadas; y también por eso, te pedimos que traigas tu portátil cargado a todas las clases, con el ambiente de desarrollo en condiciones de trabajar.
+</p>
 
+<p style="text-align: justify;">
 En las primeras clases te vamos a mostrar cómo configurar tu ambiente de desarrollo con las herramientas que vamos a usar durante el curso para programar. Esperamos que a partir de la segunda clase tengas todas las herramientas correctamente instalas y configuradas para trabajar.
+</p>
 
+<p style="text-align: justify;">
 Contamos con ello, si tienes problemas con alguna herramienta, por favor nos avisas antes del comienzo de la segunda clase.
+</p>
 
 > ⚐ Importante
 > 
@@ -566,7 +631,8 @@ sabilidad son las mínimas posibles, por otro.
 
 - Expresar objetos, clases y las relaciones entre ellos en lenguaje natural, en alguna representación gráfica, y en un lenguaje de programación orientado a objetos; y traducir entre diferentes representaciones. Programar requiere entender un problema, determinar cómo resolverlo, trasladar el problema en un programa, y probar y depurar el programa; el programa se expresa en un lenguaje de programación con un nivel de abstracción adecuado para el computador, pero no necesariamente adecuado para que el programador pueda pensar cómo resolver el problema o comunicarlo a otros pro gramadores. Es necesario poder describir objetos y clases, responsabilidades y colaboraciones, primero en lenguaje natural, en alguna forma de representación gráfica, y por último en un lenguaje de programación.
 
-- Utilizar patrones de diseño orientado a objetos para resolver problemas recurrentes. Algunas situaciones que aparecen recurrentemente a la hora de programar han sido resueltas consistentemente con un diseño que cumple las características deseadas de un programa orientado a objetos; llamamos patrón a las tuplas formadas por una situación, una solución, y un contexto. Conocer algunos patrones es útil para utilizar soluciones probadas a problemas frecuentes.
+- <p style="text-align: justify;">Utilizar patrones de diseño orientado a objetos para resolver problemas recurrentes. Algunas situaciones que aparecen recurrentemente a la hora de programar han sido resueltas consistentemente con un diseño que cumple las características deseadas de un programa orientado a objetos; llamamos patrón a las tuplas formadas por una situación, una solución, y un contexto. Conocer algunos patrones es útil para utilizar soluciones probadas a problemas frecuentes.
+</p>
 
 - Diseñar programas de forma que sean resilientes, fáciles de mantener y fáciles de entender, reutilizando y reutilizables. Un diseño resiliente busca que el programa tenga siempre un estado conocido; tiene en cuenta que algo podría salir mal y se protege de esas situaciones.
 
@@ -585,42 +651,42 @@ ciona como están definidos. La depuración puede ser artesanal, utilizando traz
 actualidad el depurador es parte del entorno integrado de desarrollo.
 
 <h2 id="achievement_indicator">6. <a href="#content">Indicadores de logro</a></h2>
-Sabremos que has desarrollado las competencias mencionadas anteriormente si:
+<p style="text-align: justify;">
+Sabremos que has desarrollado las competencias mencionadas anteriormente si:</p>
 
-- Diseñas programas aplicando los llamados patrones generales de asignación de responsabilidades; la aplicación del conjunto de estos patrones, simultáneamente con los principios mencionados a continuación, da como resultado programas orientados a objetos con las características deseadas, es decir, con una distribución razonable de responsabilidades.
+- <p style="text-align: justify;">Diseñas programas aplicando los llamados patrones generales de asignación de responsabilidades; la aplicación del conjunto de estos patrones, simultáneamente con los principios mencionados a continuación, da como resultado programas orientados a objetos con las características deseadas, es decir, con una distribución razonable de responsabilidades.</p>
 
-- Diseñas programas respetando los llamados principios sólidos, un acrónimo proveniente del inglés formado por los nombres de los principios; la aplicación del conjunto de estos principios, simultáneamente con los patrones antes mencionados, da como resultado programas orientados a objetos con las características deseadas, es decir, con una distribución razonable de responsabilidades.
+- <p style="text-align: justify;">Diseñas programas respetando los llamados principios sólidos, un acrónimo proveniente del inglés formado por los nombres de los principios; la aplicación del conjunto de estos principios, simultáneamente con los patrones antes mencionados, da como resultado programas orientados a objetos con las características deseadas, es decir, con una distribución razonable de responsabilidades.</p>
 
-- Diseñas clases expresando sus responsabilidades y colaboraciones en las llamadas tarjetas CRC; las tarjetas no tienen detalles de implementación y son expresadas en lenguaje natural.
+- <p style="text-align: justify;">Diseñas clases expresando sus responsabilidades y colaboraciones en las llamadas tarjetas CRC; las tarjetas no tienen detalles de implementación y son expresadas en lenguaje natural.</p>
 
-- Escribes un programa sintácticamente correcto utilizando un conjunto amplio de construcciones de un lenguaje de programación orientado a objetos.
+- <p style="text-align: justify;">Escribes un programa sintácticamente correcto utilizando un conjunto amplio de construcciones de un lenguaje de programación orientado a objetos.</p>
 
-- Traduces un conjunto de tarjetas CRC en lenguaje natural a un modelo gráfico en un lenguaje de notación orientado a objetos; y viceversa.
+- <p style="text-align: justify;">Traduces un conjunto de tarjetas CRC en lenguaje natural a un modelo gráfico en un lenguaje de notación orientado a objetos; y viceversa.</p>
 
-- Conoces al menos un catálogo de patrones de diseño orientado a objetos y sabes cómo utilizarlo. Es observable en la medida que puedan hacer referencia al origen de sus decisiones.
+- <p style="text-align: justify;">Conoces al menos un catálogo de patrones de diseño orientado a objetos y sabes cómo utilizarlo. Es observable en la medida que puedan hacer referencia al origen de sus decisiones.</p>
 
-- Reconoces la oportunidad para, y eres capaz de, aplicar correctamente alguno de los patrones de diseño de los catálogos de patrones que conoces. Es observable en función de la correspondencia entre la estructura del código fuente del programa y la estructura definida en algún patrón de diseño. La redacción es flexible respecto a qué patrones utilizar.
+- <p style="text-align: justify;">Reconoces la oportunidad para, y eres capaz de, aplicar correctamente alguno de los patrones de diseño de los catálogos de patrones que conoces. Es observable en función de la correspondencia entre la estructura del código fuente del programa y la estructura definida en algún patrón de diseño. La redacción es flexible respecto a qué patrones utilizar.</p>
 
-- Manejas correctamente excepciones; es decir, utilizas los bloques de control de excepciones de la forma adecuada, creas una jerarquía de excepciones adecuada para los errores que pueda encontrar tu programa. Es observable examinando el código fuente en búsqueda de bloques try...catch...finally y clases que herede de Exception.
+- <p style="text-align: justify;">Manejas correctamente excepciones; es decir, utilizas los bloques de control de excepciones de la forma adecuada, creas una jerarquía de excepciones adecuada para los errores que pueda encontrar tu programa. Es observable examinando el código fuente en búsqueda de bloques try...catch...finally y clases que herede de Exception.</p>
 
-- Creas programas que son fáciles de mantener. La facilidad de mantenimiento es el grado de efectividad y eficiencia con el cual un programa pude ser modificado por quienes lo mantienen
+- Creas programas que son fáciles de mantener. La facilidad de mantenimiento es el grado de efectividad y eficiencia con el cual un programa pude ser modificado por quienes lo mantienen</p>
 
-- Creas programas que son fáciles de entender porque respetan convenciones de estilo y nomenclatura en el código
+- <p style="text-align: justify;">Creas programas que son fáciles de entender porque respetan convenciones de estilo y nomenclatura en el código</p>
 
-- Creas programas produciendo y consumiendo clases reutilizables
+- <p style="text-align: justify;">Creas programas produciendo y consumiendo clases reutilizables</p>
 
-- Puedes crear y utilizar efectivamente un repositorio de control de código fuente concurrente; esto incluye:
-inicializar el repositorio, clonarlo en tu espacio de trabajo local, mantener sincronizado tu espacio de trabajo local con el repositorio, crear ramas para mantener tu trabajo independiente del de los demás, consolidar tus modificaciones con las modificaciones de los demás.
+- <p style="text-align: justify;">Puedes crear y utilizar efectivamente un repositorio de control de código fuente concurrente; esto incluye: inicializar el repositorio, clonarlo en tu espacio de trabajo local, mantener sincronizado tu espacio de trabajo local con el repositorio, crear ramas para mantener tu trabajo independiente del de los demás, consolidar tus modificaciones con las modificaciones de los demás.</p>
 
-- Puedes asociar modificaciones al código fuente en el repositorio con requerimientos o con errores, colaborando con otros programadores para validar modificaciones.
+- <p style="text-align: justify;">Puedes asociar modificaciones al código fuente en el repositorio con requerimientos o con errores, colaborando con otros programadores para validar modificaciones.</p>
 
--  Puedes escribir una especificación de cómo debería funcionar tu programa
+- <p style="text-align: justify;">Puedes escribir una especificación de cómo debería funcionar tu programa</p>
 
--  Puedes poner un punto de ruptura para detener la ejecución de un programa.
+- <p style="text-align: justify;">Puedes poner un punto de ruptura para detener la ejecución de un programa.</p>
 
--  Analizas el estado de un programa durante su ejecución; eventualmente puedes también modificarlo si el contexto de ejecución lo permite.
+- <p style="text-align: justify;">Analizas el estado de un programa durante su ejecución; eventualmente puedes también modificarlo si el contexto de ejecución lo permite.</p>
 
--  Examinas la lógica de un programa durante su ejecución, ejecutando con mayor o menor granularidad según corresponda.
+- <p style="text-align: justify;">Examinas la lógica de un programa durante su ejecución, ejecutando con mayor o menor granularidad según corresponda.</p>
 
 ***
 
