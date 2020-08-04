@@ -106,12 +106,8 @@
 Los profesores de Programación II te damos la bienvenida al curso.
 
 - Federico Martino  federicod.martino@ucu.edu.uy
-- Fernando Machado  fmachado@ucu.edu.uy
-- Mauricio Cassani  raul.cassani@ucu.edu.uy
-- Nicolás Alliaume  nicolas.alliaume@ucu.edu.uy
-- Eduardo Pérez     eduardo.perez@correo.ucu.edu.uy
+- Eduardo Pérez     eduardo.perezh@ucu.edu.uy
 - Gonzalo Pennino   gpennino@ucu.edu.uy
-- Bernardo Rychtenberg brychtenberg@ucu.edu.uy 
 
 <h3 id="about_poo">1.1 <a href="#content">Sobre programación y programación orientada a objetos</a></h3>
 
