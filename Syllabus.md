@@ -189,10 +189,7 @@ Para ello cada unidad temática describe las intenciones y los resultados espera
 </p>
 
 <h4 id="objects">1.4.1 <a href="#content">Objetos, clases y mensajes</a></h4>
-<<<<<<< HEAD
 <p style="text-align: justify;">
-=======
->>>>>>> 731c7195f831566961682e9d8dfe735bf7fba4db
 Repasamos la esencia de un programa orientado a objetos. Introducimos la especificación de clases, responsabilidades y colaboraciones. Explicamos y usamos el patrón de diseño Expert y el principio Single Responsibility Principle para comenzar a descomponer en clases.
 </p>
 
