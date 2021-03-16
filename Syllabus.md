@@ -8,7 +8,7 @@
 
 
 <h2 align=center>Syllabus</h2>
-<h3 align=center>Agosto 2020</h3>
+<h3 align=center>Marzo 2021</h3>
 
 <h3 id="content">Contenido</h3>
 <ul style="list-style:none">
