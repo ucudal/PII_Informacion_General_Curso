@@ -8,7 +8,7 @@
 
 
 <h2 align=center>Syllabus</h2>
-<h3 align=center>Marzo 2021</h3>
+<h3 align=center>Agosto 2021</h3>
 
 <h3 id="content">Contenido</h3>
 <ul style="list-style:none">
@@ -28,8 +28,11 @@
                 1.4. <a href="#units">Unidades temáticas</a>   
                 <ul style="list-style:none">
                     <li>
-                        1.4.1. <a href="#objects">Objetos, clases y mensajes</a>                
+                        1.4.0. <a href="#deP1aP2">Desde Programación I hacia Programación II</a>                
                     </li>
+                    <li>
+                        1.4.1. <a href="#lifecycle">Ciclo de vida de los objetos</a>                
+                    </li>                    
                     <li>
                         1.4.2. <a href="#types">Tipos y tipos genéricos</a>                
                     </li>
@@ -105,9 +108,10 @@
 <h2 id="about">1 <a href="#content">Acerca del curso</a></h2>
 Los profesores de Programación II te damos la bienvenida al curso.
 
-- Federico Martino  federicod.martino@ucu.edu.uy
-- Eduardo Pérez     eduardo.perezh@ucu.edu.uy
+- Tomás Abreu       agustin.abreu@ucu.edu.uy
+- Matías Olave      matias.olave@ucu.edu.uy
 - Gonzalo Pennino   gpennino@ucu.edu.uy
+- Fernando Machado  fmachado@ucu.edu.uy
 
 <h3 id="about_poo">1.1 <a href="#content">Sobre programación y programación orientada a objetos</a></h3>
 
@@ -188,9 +192,20 @@ El curso de desarrollará en varias unidades temátic1as que cubren diferentes a
 Para ello cada unidad temática describe las intenciones y los resultados esperados del aprendizaje específicos de la unidad.
 </p>
 
-<h4 id="objects">1.4.1 <a href="#content">Objetos, clases y mensajes</a></h4>
+<h4 id="deP1aP2">1.4.0 <a href="#content">Desde Programación I hacia Programación II</a></h4>
 <p style="text-align: justify;">
-Repasamos la esencia de un programa orientado a objetos. Introducimos la especificación de clases, responsabilidades y colaboraciones. Explicamos y usamos el patrón de diseño Expert y el principio Single Responsibility Principle para comenzar a descomponer en clases.
+Repasamos la especificación de clases, responsabilidades y colaboraciones que vieron en Programación I en Python para aprender cómo hacerla en C#. También vemos cómo escribir en C# construcciones que saben escribir en Python. Mostramos la estructura de un programa orientado a objetos en C#. Introducimos  Explicamos y usamos el patrón de diseño Expert y el principio Single Responsibility Principle para comenzar a descomponer en clases.
+</p>
+
+> ⚠️ **Nota**
+><p style="text-align: justify;">
+> En Programación I usaste Python, mientras que en Programación II usaremos C#. En webasignatura podrás encontrar
+> ayuda para hacer en C# las cosas que sabes hacer en Python.
+</p>
+
+<h4 id="lifecycle">1.4.1 <a href="#content">Ciclo de vida de los objetos</a></h4>
+<p style="text-align: justify;">
+TODO: Lorem ipsum
 </p>
 
 <h4 id="types">1.4.2 <a href="#content">Tipos y tipos genéricos</a></h4>
@@ -223,11 +238,6 @@ Vemos cómo definir cuándo un programa es correcto, cómo corregirlo cuando y n
 Programación II tiene como previa Programación I. Asumimos que ya puedes construir programas utilizando los conceptos de variables y operaciones, estructuras de control de flujo, funciones y parámetros, clases y objetos.
 </p>
 
-> ⚠️ **Nota**
-><p style="text-align: justify;">
-> En Programación I usaste Python, mientras que en Programación II usaremos C#. En webasignatura podrás encontrar
-> ayuda para hacer en C# las cosas que sabes hacer en Python.
-</p>
 
 A su vez, Programación II es previa de Algoritmos y estructuras de datos I y de Ingeniería de software I.
 <img src="./Assets/previas.png" alt="drawing" style="width:480px"/>
@@ -380,11 +390,11 @@ Otra cosa importante es documentar tu programa, es decir, agregar información q
 También es importante usar un repositorio para programar tranquilo. Un repositorio evita que pierdas tu trabajo, ya sea porque pasa algo en tu ambiente, porque introduces un error inesperado que quisieras deshacer, o porque quieres colaborar con otros compañeros, ya sea permitiéndoles modificar lo que tú programas, o permitiéndoles ver lo que has programado y que te hagan comentarios.
 
 <h3 id="owner">2.2 <a href="#content">Eres dueño de tu aprendizaje</a></h3>
-Los profesores podemos enseñarte, pero sólo tú puedes aprender. En este curso queremos enseñarte a programar, pero también queremos que aprendas a aprender. Aunque nunca más programes 5 , aprender es algo que haces durante toda tu vida.
+Los profesores podemos enseñarte, pero sólo tú puedes aprender. En este curso queremos enseñarte a programar, pero también queremos que aprendas a aprender. Aunque nunca más programes, aprender es algo que haces durante toda tu vida.
 
 > ⚐ Importante
 >
->  Consideramos que aprendas a aprender tan importante, que vamos a pedirte que hagas el curso en línea “Aprendiendo a aprender: Poderosas herramientas mentales con las que podrás dominar temas difíciles” en Coursera: https://www.coursera.org/learn/aprendiendo-a-aprender. Este curso insume máximo unas quince horas entre videos, ejercicios y material adicional. Obtendrás cinco puntos adicionales en la nota del proceso de aprendizaje 6 en caso de que completes el curso dentro de las primeras cuatro semanas del curso.
+>  Aunque "aprender a aprender" es un objetivo de aprendizaje del curso TI³, consideramos que aprender a aprender es tan importante, que te sugerimos que hagas el curso en línea [Aprendiendo a aprender: Poderosas herramientas mentales con las que podrás dominar temas difíciles](https://www.coursera.org/learn/aprendiendo-a-aprender) en Coursera: . Este curso insume máximo unas quince horas entre videos, ejercicios y material adicional.
 
 No importa cómo aprendas, pero sí es importante que sepas cómo aprendes, para que puedas hacerlo de la forma más conveniente para ti. Reflexiona frecuentemente, cada vez que te equivocas, sobre qué fue lo que faltó, o qué hubieras podido hacer diferente.
 
@@ -452,9 +462,23 @@ Las evaluaciones de las actividades preliminares, de las actividades de aplicaci
 
 Hay varios tipos de evaluaciones que haremos durante el curso . Al inicio de cada unidad temática haremos una evaluación de la preparación para el aprendizaje, o RAT<sup>8</sup> por sus siglas en inglés. Esta evaluación tiene dos partes y, en consecuencia, dos calificaciones. Una -IRAT- es individual y consiste en contestar algunas preguntas sobre la preparación previa, sin consultar ninguna referencia ni tampoco a tus compañeros. La otra -TRAT- consiste en contestar las mismas preguntas, luego de consensuarlas con tu equipo. La calificación del TRAT es la misma para todos los integrantes del equipo.
 
-Luego de los RAT haremos actividades de aplicación en equipos, que también serán evaluadas. La calificación de las actividades de aplicación es la misma para todos los integrantes del equipo. El criterio de evaluación de los IRAT y los TRAT es el mismo: las preguntas son múltiple opción y la respuesta correcta a esas preguntas se proporciona al final de realización del RAT; la calificación es proporcional a la cantidad de respuestas correctas.
+Luego de los RAT haremos actividades de aplicación individuales o en equipos, que también serán evaluadas. Algunas evaluaciones las realizarán los docentes y otras serán evaluaciones por pares realizadas por otros estudiantes. La calificación de las actividades de aplicación realizadas en equipo es la misma para todos los integrantes del equipo. El criterio de evaluación de los IRAT y los TRAT es el mismo: las preguntas son múltiple opción y la respuesta correcta a esas preguntas se proporciona al final de realización del RAT; la calificación es proporcional a la cantidad de respuestas correctas.
 
-El proyecto tiene tres entregar parciales y una entrega final; la calificación de las actividades de aplicación es la misma para todos los integrantes del equipo.
+En las actividades de aplicación evaluadas por pares, cada estudiante envía su tarea, y a su vez revisa y califica la tarea de otro estudiante, es decir, cada estudiante es autor y revisor. La revisión y calificación es mediante una rúbrica que se proporciona junto con la consigna de la actividad. Los autores suman puntos según la rúbrica, y los revisores suman puntos en la medida que apliquen la rúbrica correctamente.
+
+> ⚐ Importante
+> 
+> La revisión y calificación por parte de los revisores puede ser apelada por los autores si consideran que la rúbrica fue mal aplicada y su tarea merece una calificación diferente.
+
+Si el autor no apela, tanto el autor como el revisor llevan todos los puntos de la actividad.
+
+Si el autor apela, los docentes revisan tanto la tarea como su evaluación. Si el docente hace lugar a la apelación, lleva los puntos el autor y no el revisor. Por el contrario, si el docente no hace lugar a la apelación, lleva los puntos el revisor y no el autor.
+
+Las tareas no entregadas no llevan puntos. Si el revisor no revisa o no califica, el autor lleva los puntos, pero no el revisor.
+
+Los docentes siempre pueden evaluar tareas y revisiones al azar y confirmar o modificar las calificaciones.
+
+Las actividades de aplicación en equipo son evaluadas por los docentes y todos los integrantes del equipo reciben la misma calificación.
 
 El criterio de evaluación del proyecto es mediante una rúbrica que se proporciona junto con el enunciado cuando comienza el proyecto. La rúbrica indica las evidencias observables de desarrollo de las competencias del curso -consulta <a href="#competence_details">Detalle de las competencias</a> - según niveles de suficiencia -del más bajo al más alto-: ”insuficiente”, “insipiente”, “en desarrollo” y “experto”. La calificación es relativa al nivel de desarrollo de las competencias: deberás alcanzar el nivel “experto” en al menos cuatro de las seis competencias del curso, y el nivel “en desarrollo” en las demás, para obtener calificación superior 75% en el proyecto.
 
@@ -462,9 +486,9 @@ El proyecto también tiene una defensa escrita, que consiste en contestar pregun
 
 El criterio de evaluación de la defensa es igual al del proyecto: utiliza la misma rúbrica y la misma forma de calificar en relación al nivel de desarrollo de las competencias.
 
-Junto con cada entrega parcial y la entrega final del proyecto haremos una evaluación entre pares. En esta evaluación el resto de los compañeros de tu equipo evalúa tu participación y aportes al trabajo del equipo. La calificación de las evaluaciones entre pares es individual.
+Junto con cada entrega parcial y la entrega final del proyecto haremos una evaluación entre pares mediante iPeer. En esta evaluación el resto de los compañeros de tu equipo evalúa tu participación y aportes al trabajo del equipo. La calificación de las evaluaciones entre pares es individual.
 
-El criterio para la evaluación entre pares es mediante una rúbrica que se proporcional junto con el enunciado del proyecto y se aplica con cada entrega parcial y la entrega final. Esta rúbrica indica las evidencias observables del desarrollo de tu competencia de trabajo colaborativo, según la opinión del resto de los integrantes de tu equipo: tus compañeros contestan una docena de afirmaciones sobre tu desempeño, en cinco niveles que van de “discrepo totalmente” a “totalmente de acuerdo”. Deberás alcanzar el nivel “totalmente de acuerdo” o “de acuerdo” -los dos más altos- en al menos la mitad de las afirmaciones, para obtener calificación superior 75% en la evaluación entre pares.
+El criterio para la evaluación entre pares con iPeer es mediante una rúbrica que se proporcional junto con el enunciado del proyecto y se aplica con cada entrega parcial y la entrega final. Esta rúbrica indica las evidencias observables del desarrollo de tu competencia de trabajo colaborativo, según la opinión del resto de los integrantes de tu equipo: tus compañeros contestan una docena de afirmaciones sobre tu desempeño, en cinco niveles que van de “discrepo totalmente” a “totalmente de acuerdo”. Deberás alcanzar el nivel “totalmente de acuerdo” o “de acuerdo” -los dos más altos- en al menos la mitad de las afirmaciones, para obtener calificación superior 75% en la evaluación entre pares.
 
 <h3 id="qualification">3.3 <a href="#content">Calificaciones</a></h3>
 <h4 id="scale_qualification">3.3.1 <a href="#content">Escala de calificaciones</a></h4>
@@ -486,23 +510,23 @@ Para la correspondencia entre puntajes y notas, se utilizarán los siguientes ra
         <th>Nota</th>
     </tr>
     <tr style="vertical-align: top;text-align: center;">
-        <td>0-30</td>
+        <td>0-40</td>
         <td>D</td>
     </tr>
     <tr style="vertical-align: top;text-align: center;">
-        <td>31-74</td>
+        <td>41-74</td>
         <td>R</td>
     </tr>
     <tr style="vertical-align: top;text-align: center;">
-        <td>75</td>
+        <td>75-82</td>
         <td>B</td>
     </tr>
     <tr style="vertical-align: top;text-align: center;">
-        <td>76-88</td>
+        <td>83-90</td>
         <td>BMB</td>
     </tr>
     <tr style="vertical-align: top;text-align: center;">
-        <td>89-95</td>
+        <td>91-95</td>
         <td>MB</td>
     </tr>
     <tr style="vertical-align: top;text-align: center;">
@@ -584,13 +608,11 @@ El porcentaje de ponderación de los diferentes componentes es la siguiente:
     </tr>
 </table>
 
-Puedes obtener 5 puntos adicional en la nota del proceso de aprendizaje si completas el curso<sup>9</sup> en línea “Aprendiendo a aprender: Poderosas herramientas mentales con las que podrás dominar temas difíciles” en Coursera:https://www.coursera.org/learn/aprendiendo-a-aprender dentro de las primeras cuatro semanas del curso.
-
 <h4 id="final_approval">3.3.3 <a href="#content">Aprobación final</a></h4>
 Para lograr la aprobación del curso, es necesario que se cumplan tres condiciones simultáneamente:
 
-- Que obtengas una calificación de BMB o superior en la medición del resultado del aprendizaje.
-- Que obtengas una calificación de BMB o superior en la medición del proceso de aprendizaje; y
+- Que obtengas una calificación de B o superior en la medición del resultado del aprendizaje.
+- Que obtengas una calificación de B o superior en la medición del proceso de aprendizaje; y
 - Que tengas una asistencia no menor al 75% de todas las clases efectivamente dictadas.
 
 La nota de aprobación del curso será el promedio ponderado de las calificaciones del resultado del aprendizaje y del proceso de aprendizaje.
