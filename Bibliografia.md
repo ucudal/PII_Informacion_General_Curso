@@ -17,6 +17,13 @@
 
 <h1 id="program">Del programa</h1>
 
+![Object Design: Roles, Responsibilities, and Collaborations](/Assets/odesign.jpg)
+
+Wirfs-Brock, Rebeca y McKean, Alan; "Object Design: Roles, Responsibilities, and Collaborations"; Addison-Wesley Professional; ISBN 0201379430; 2002.
+
+Este libro está disponible para descarga [aquí](https://www.informit.com/promotions/object-design-142314).
+
+---
 ![C# 5.0 Unleashed](/Assets/program.png)
 
 De Smet, Bart; “C# 5.0 Unleashed”, Sams Publishing, ISBN-10: 0672336901; 2013
