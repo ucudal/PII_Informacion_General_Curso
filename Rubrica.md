@@ -26,7 +26,7 @@
             <h3>Insuficiente</h3>
         </th>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Aplicas los llamados patrones generales de asignación de responsabilidades; la aplicación del conjunto de estos patrones, simultáneamente con los principios mencionados a continuación, da como resultado programas orientados a objetos con las características deseadas, es decir, con una distribución razonable de responsabilidades. Es observable en la medida que cada decisión de diseño puede ser explicada en términos del patrón.
@@ -53,34 +53,34 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Respetas los llamados principios sólidos, un acrónimo proveniente del inglés formado por los nombres de los principios; la aplicación del conjunto de estos principios, simultáneamente con los patrones antes mencionados, da como resultado programas orientados a objetos con las características deseadas, es decir, con una distribución razonable de responsabilidades. Es observable en la medida que cada decisión de diseño respeta o viola alguno de estos principios.
-            </p>            
+            </p>
         </td>
         <td>
             <p>
                 Aplicas correctamente en tus programas cada vez que hay oportunidad los siguientes principios: Single Responsibility Principle, Liskov Substitution Principle, Dependency Inversion, Interface Segregation, y Open/Closed; lo haces explícito -mediante comentarios en el código-; y argumentas correctamente sobre la aplicación
-            </p>            
+            </p>
         </td>
         <td>
             <p>
                 Aplicas correctamente solo algunos de esos principios o no siempre los aplicas cuando hay oportunidad; no siempre lo haces explícito; o no argumentas correctamente sobre su aplicación
-            </p>            
+            </p>
         </td>
         <td>
             <p>
                 No aplicas correctamente varios de esos principios o casi nunca los aplicas cuando hay oportunidad; no siempre lo haces explícito; o no puedes argumentar correctamente sobre los patrones que sí aplicas
-            </p>            
+            </p>
         </td>
         <td>
             <p>
                 No aplicas correctamente ninguno de estos principios; casi nunca lo haces explícito; o no puedes argumentar correctamente sobre los patrones que sí aplicas
-            </p>            
+            </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Diseñas clases expresando sus responsabilidades y colaboraciones en las llamadas tarjetas CRC; las tarjetas no tienen detalles de implementación y son expresadas en lenguaje natural. Es observable a través del contenido de las tarjetas.
@@ -106,8 +106,8 @@
                 No identificas correctamente las clases con las que crearás para tus programas, o las responsabilidades de esas clases, o las colaboraciones necesarias para implementarlas; o casi nunca usas las tarjetas CRC
             </p>
         </td>
-    </tr> 
-    <tr style="vertical-align: top;text-align: justify;">
+    </tr>
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Diseñas clases y objetos expresando las relaciones entre ellos utilizando un subconjunto de construcciones un lenguaje gráfico de modelado orientado a objetos; estas construcciones son: clase, interfaz, objeto, colaboración, mensaje, atributo, método, herencia, composición, cardinalidad. Es observable a través de los modelos gráficos.
@@ -134,7 +134,7 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Escribes un programa sintácticamente correcto utilizando un conjunto amplio de construcciones de un lenguaje de programación orientado a objetos. Es observable a través del código del programa y el resultado de la compilación.
@@ -147,7 +147,7 @@
         </td>
         <td>
             <p>
-                Tus programas son sintácticamente correctos aunque no utilizas todas las construcciones disponibles             
+                Tus programas son sintácticamente correctos aunque no utilizas todas las construcciones disponibles
             </p>
         </td>
         <td>
@@ -161,7 +161,7 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Traduces un conjunto de tarjetas CRC en lenguaje natural a un modelo gráfico en un lenguaje de notación orientado a objetos; y viceversa. Es observable a través de la comparación entre el contenido de las tarjetas y la correspondencia con el modelo gráfico resultante.
@@ -188,7 +188,7 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Traduces un modelo gráfico en un lenguaje de notación orientado a objetos a un programa en un lenguaje de programación orientado a objetos; y viceversa. Es observable a través de la comparación entre el modelo gráfico y la correspondencia con el código del programa resultante.
@@ -215,7 +215,7 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Conoces al menos un catálogo de patrones de diseño orientado a objetos y sabes cómo utilizarlo. Es observable en la medida que puedan hacer referencia al origen de sus decisiones.
@@ -223,7 +223,7 @@
         </td>
         <td>
             <p>
-                Puedes encontrar soluciones para problemas de diseño consistentemente buscando en uno o más catálogos de patrones; y haces referencia explícita al catálogo    
+                Puedes encontrar soluciones para problemas de diseño consistentemente buscando en uno o más catálogos de patrones; y haces referencia explícita al catálogo
             </p>
         </td>
         <td>
@@ -242,7 +242,7 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Reconoces la oportunidad para, y eres capaz de, aplicar correctamente alguno de los patrones de diseño de los catálogos de patrones que conoces. Es observable en función de la correspondencia entre la estructura del código fuente del programa y la estructura definida en algún patrón de diseño. La redacción es flexible respecto a qué patrones utilizar.
@@ -260,7 +260,7 @@
         </td>
         <td>
             <p>
-                Conoces al menos un catálogo de patrones pero no aplicas correctamente varios de los patrones del catálogo o casi nunca los aplicas cuando hay oportunidad; no siempre lo haces explícito; o no puedes argumentar correctamente sobre los patrones que sí aplicas 
+                Conoces al menos un catálogo de patrones pero no aplicas correctamente varios de los patrones del catálogo o casi nunca los aplicas cuando hay oportunidad; no siempre lo haces explícito; o no puedes argumentar correctamente sobre los patrones que sí aplicas
             </p>
         </td>
         <td>
@@ -269,7 +269,7 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Manejas correctamente excepciones; es decir, utilizas los bloques de control de excepciones de la forma adecuada, creas una jerarquía de excepciones adecuada para los errores que pueda encontrar tu programa. Es observable examinando el código fuente en búsqueda de bloques try...catch...finally y clases que herede de Exception.
@@ -296,7 +296,7 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Creas programas que son fáciles de mantener. La facilidad de mantenimiento es el grado de efectividad y eficiencia con el cual un programa pude ser modificado por quienes lo mantienen [adaptado de ISO/IEC 25010:2011]
@@ -309,12 +309,12 @@
         </td>
         <td>
             <p>
-                Puedes modificar los programas que creas efectivamente [sin efectos secundarios inadvertidos] o eficientemente [rápidamente] la mayoría de las veces 
+                Puedes modificar los programas que creas efectivamente [sin efectos secundarios inadvertidos] o eficientemente [rápidamente] la mayoría de las veces
             </p>
         </td>
         <td>
             <p>
-                Puedes modificar los programas que creas efectivamente [sin efectos secundarios inadvertidos] o eficientemente [rápidamente] algunas veces             
+                Puedes modificar los programas que creas efectivamente [sin efectos secundarios inadvertidos] o eficientemente [rápidamente] algunas veces
             </p>
         </td>
         <td>
@@ -323,7 +323,7 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Creas programas que son fáciles de entender porque respetan convenciones de estilo y nomenclatura en el código
@@ -331,7 +331,7 @@
         </td>
         <td>
             <p>
-                Respetas consistentemente convenciones de estilo y nomenclatura en el código             
+                Respetas consistentemente convenciones de estilo y nomenclatura en el código
             </p>
         </td>
         <td>
@@ -350,7 +350,7 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Creas programas produciendo y consumiendo clases reutilizables; ver reutilización en [Measurement of Langue- Supported Reuse in Object-Oriented and Object-Based Software]
@@ -377,7 +377,7 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Puedes crear y utilizar efectivamente un repositorio de control de código fuente concurrente; esto incluye: inicializar el repositorio, clonarlo en tu espacio de trabajo local, mantener sincronizado tu espacio de trabajo local con el repositorio, crear ramas para mantener tu trabajo independiente del de los demás, consolidar tus modificaciones con las modificaciones de los demás. Es observable a partir de la traza de operaciones en el repositorio.
@@ -404,7 +404,7 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Puedes asociar modificaciones al código fuente en el repositorio con requerimientos o con errores, colaborando con otros programadores para validar modificaciones. Es observable a partir de la traza de operaciones en el repositorio y el vínculo con issues y bugs.
@@ -431,10 +431,10 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
-                Puedes escribir una especificación de cómo debería funcionar tu programa 
+                Puedes escribir una especificación de cómo debería funcionar tu programa
             </p>
         </td>
         <td>
@@ -458,7 +458,7 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Puedes poner un punto de ruptura para detener la ejecución de un programa. Es observable en el entorno integrado.
@@ -485,7 +485,7 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Analizas el estado de un programa durante su ejecución; eventualmente puedes también modificarlo si el contexto de ejecución lo permite. Es observable en el entorno integrado.
@@ -511,8 +511,8 @@
                 No puedes ver ni cambiar el valor de variables y argumentos
             </p>
         </td>
-    </tr>    
-    <tr style="vertical-align: top;text-align: justify;">
+    </tr>
+    <tr style="vertical-align: top;text-align: left;">
         <td>
             <p>
                 Examinas la lógica de un programa durante su ejecución, ejecutando con mayor o menor granularidad según corresponda. Es observable en el entorno integrado.

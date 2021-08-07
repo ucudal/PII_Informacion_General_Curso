@@ -20,9 +20,9 @@
             <h3>Justificación</h3>
         </th>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
-            <p>Específica particular</p>            
+            <p>Específica particular</p>
         </td>
         <td>
             <p>Descomponer problemas en términos de objetos y clases, responsabilidades y colaboraciones</p>
@@ -31,9 +31,9 @@
             <p>Es lo que hace la diferencia entre programar orientado a objetos y otras formas de programación. Los objetos son instancias de clases y tienen la responsabilidad de conocer parte del estado y de implementar parte de la lógica del programa, para lo cual cada objeto asume sus responsabilidades o colabora con otros para implementarlas. La forma razonablemente equilibrada de distribuir responsabilidades entre objetos y clases busca aumentar la cohesión y disminuir el acoplamiento, es decir, las responsabilidades que están juntas están lo más relacionadas que sea posible, por un lado, y las colaboraciones requeridas para implementar una responsabilidad son las mínimas posibles, por otro.</p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
-            <p>Específica particular</p>            
+            <p>Específica particular</p>
         </td>
         <td>
             <p>Expresar objetos, clases y las relaciones entre ellos en lenguaje natural, en alguna representación gráfica, y en un lenguaje de programación orientado a objetos; y traducir entre diferentes representaciones</p>
@@ -42,9 +42,9 @@
             <p>Programar requiere entender un problema, determinar cómo resolverlo, trasladar el problema en un programa, y probar y depurar el programa; el programa se expresa en un lenguaje de programación con un nivel de abstracción adecuado para el computador, pero no necesariamente adecuado para que el programador pueda pensar cómo resolver el problema o comunicarlo a otros programadores. Es necesario poder describir objetos y clases, responsabilidades y colaboraciones, primero en lenguaje natural, en alguna forma de representación gráfica, y por último en un lenguaje de programación.</p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
-            <p>Específica particular</p>            
+            <p>Específica particular</p>
         </td>
         <td>
             <p>Utilizar patrones de diseño orientado a objetos para resolver problemas recurrentes</p>
@@ -53,9 +53,9 @@
             <p>Algunas situaciones que aparecen recurrentemente a la hora de programar han sido resueltas consistentemente con un diseño que cumple las características deseadas de un programa orientado a objetos; llamamos patrón a las tuplas formadas por una situación, una solución, y un contexto. Conocer algunos patrones es útil para utilizar soluciones probadas a problemas frecuentes.</p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
-            <p>Específica disciplinaria</p>      
+            <p>Específica disciplinaria</p>
         </td>
         <td>
             <p>Diseñar programas de forma que sean…
@@ -83,9 +83,9 @@
             </ol>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
-            <p>Específica disciplinaria</p>            
+            <p>Específica disciplinaria</p>
         </td>
         <td>
             <p>Crear y modificar programas en forma colaborativa y concurrente</p>
@@ -97,9 +97,9 @@
             </p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
-            <p>Específica disciplinaria</p>            
+            <p>Específica disciplinaria</p>
         </td>
         <td>
             <p>Escribir programas contra especificaciones y depurarlos para encontrar y corregir errores</p>
@@ -108,9 +108,9 @@
             <p>Algunos de los pasos clave en el proceso de construir programas son definir de antemano cómo debería comportarse el programa; y luego encontrar y corregir errores semánticos, es decir, cuando el programa no funciona como están definidos. La depuración puede ser artesanal, utilizando trazas y mensajes, aunque en la actualidad el depurador es parte del entorno integrado de desarrollo.</p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
-            <p>General</p>            
+            <p>General</p>
         </td>
         <td>
             <p>Comunicación efectiva</p>
@@ -119,9 +119,9 @@
             <p>Comunicar efectivamente con una variedad de estilos, modos y herramientas (incluidas las herramientas digitales) con un diseño diferente para una amplia gama de audiencias.</p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
-            <p>General</p>            
+            <p>General</p>
         </td>
         <td>
             <p>Pensamiento crítico<p>
@@ -130,9 +130,9 @@
             <p>Evaluar críticamente la información y los argumentos, ver patrones y conexiones, construir conocimiento significativo y aplicarlo en el mundo real.<p>
         </td>
     </tr>
-    <tr style="vertical-align: top;text-align: justify;">
+    <tr style="vertical-align: top;text-align: left;">
         <td>
-            <p>General</p>            
+            <p>General</p>
         </td>
         <td>
             <p>Trabajo colaborativo</p>
